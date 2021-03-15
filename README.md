@@ -42,7 +42,7 @@ Package comes with 3 demos scenes and with some <strong> extra scripts </strong>
 
 <a href='https://drive.google.com/drive/folders/1yw-m691T9bUKm65AZaBx2vBj6THYIZYg?usp=sharing'>APK</a><br>
 
-![Pooler](https://raw.githubusercontent.com/playjoa/SimpleObjectPooler/main/Screenshots/Screenshot%201.png)
+![Performance Friendly](https://raw.githubusercontent.com/playjoa/SimpleObjectPooler/main/Screenshots/Screenshot%201.png)
 
 <br>
 Contact:
