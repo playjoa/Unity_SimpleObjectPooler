@@ -37,9 +37,7 @@ Package comes with 3 demos scenes and with some <strong> extra scripts </strong>
 <a href='https://drive.google.com/drive/folders/1yw-m691T9bUKm65AZaBx2vBj6THYIZYg?usp=sharing'>APK</a><br>
 
 <br>
-
 Contact:
-
 <br>
 <strong>
 crossblackstudios@gmail.com
