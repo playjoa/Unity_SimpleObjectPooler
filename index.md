@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Simple Object Pooler
 
 You can use the [editor on GitHub](https://github.com/playjoa/SimpleObjectPooler/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
