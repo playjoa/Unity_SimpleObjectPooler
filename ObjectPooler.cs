@@ -21,11 +21,11 @@ namespace JoaoMilone
             [Tooltip("The prefab reference you want to create a pool to!")]
             public GameObject prefabModel;
 
-            [Tooltip("The max ammount of each objects in pool! If you wish to make it adaptive leave if with value 0")]
+            [Tooltip("The max amount of each objects in pool! If you wish to make it adaptive leave if with value 0")]
             [Range(0, 100)]
             public int max_Qty_Object = 0;
 
-            [Tooltip("The ammount objects that you want to pre create in pool! If you wish to have these objects available from Awake!")]
+            [Tooltip("The amount objects that you want to pre create in pool! If you wish to have these objects available from Awake!")]
             [Range(0, 20)]
             public int preMake_Qty = 0;
         }
