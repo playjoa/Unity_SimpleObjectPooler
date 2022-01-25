@@ -155,7 +155,7 @@ namespace JoaoMilone.Pooler.Controller
         ///<summary>
         ///Requests an object from the pool and assigns a local position to be activated! The rotation of the object will be the same as prefab.
         ///</summary>
-        public GameObject RequestObjectWithLocalPosition(string id, Vector3 position)
+        public GameObject RequestObjectWithLocalPosition(string id, Vector3 localPosition)
         {
             if (!PoolExists(id)) return null;
 
@@ -165,18 +165,18 @@ namespace JoaoMilone.Pooler.Controller
             
             if (objectRequested != null)
             {
-                ObjectPreparer.PrepareObjectWithLocalPosition(objectRequested, position);
+                ObjectPreparer.PrepareObjectWithLocalPosition(objectRequested, localPosition);
                 return objectRequested;
             }
             
             //Could not find available PoolObject to use! Instantiating new one if max qty not reached
             if (currentHolder.CanInstantiateMore)
-                objectRequested = PoolInstantiator.InstantiateLocalPosition(currentHolder, position);
+                objectRequested = PoolInstantiator.InstantiateLocalPosition(currentHolder, localPosition);
             else
             {
                 //Getting farthest Object in list to use in request
                 objectRequested = currentHolder.GetObjectAtCounter();
-                ObjectPreparer.PrepareObjectWithLocalPosition(objectRequested, position);
+                ObjectPreparer.PrepareObjectWithLocalPosition(objectRequested, localPosition);
             }
             return objectRequested;
         }
