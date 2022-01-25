@@ -9,7 +9,7 @@ namespace JoaoMilone.Pooler.Controller
     public class ObjectPooler : MonoBehaviour
     {
         [Header("-----Pool Configuration!-----")]
-        [Tooltip("If you wish to keep objects separeted in a parent, reference it here!")]
+        [Tooltip("If you wish to keep objects separated in a parent, reference it here!")]
         [SerializeField] private Transform pool_Parent;
         
         [Header("-----Object List-----")] 

@@ -44,11 +44,8 @@ namespace JoaoMilone.Pooler.Components
 
         public void Reset()
         {
-            foreach (var poolObject in PoolList)
-            {
-                if (poolObject != null)
-                    Object.Destroy(poolObject);
-            }
+            foreach (var poolObject in PoolList.Where(poolObject => poolObject != null))
+                Object.Destroy(poolObject);
             
             Counter = 0;
             PoolList.Clear();
