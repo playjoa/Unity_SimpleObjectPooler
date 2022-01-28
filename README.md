@@ -9,7 +9,7 @@
 </p><br>
 
 <p>
-- You can set max ammount of each object. And also clear pool of objects or the entire pool to free up some memory if you wish to do so. Works great on mobile and other plataforms.
+- You can set max amount of each object. And also clear pool of objects or the entire pool to free up some memory if you wish to do so. Works great on mobile and other plataforms.
 </p>
 <br>
 
